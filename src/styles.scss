@@ -1,18 +1,18 @@
 @font-face {
   font-family: Poppins;
-  src: url('./app/model/sources/Poppins/Poppins-Medium.ttf');
+  src: url('/src/app/model/sources/Poppins');
 }
 @font-face {
   font-family: Poppins-light;
-  src: url('./app/model/sources/Poppins/Poppins-Light.ttf');
+  src: url('/src/app/model/sources/Poppins-light');
 }
 @font-face {
   font-family:Poppins-bold ;
-  src: url('./app/model/sources/Poppins/Poppins-Bold.ttf');
+  src: url('/src/app/model/sources/Poppins-bold');
 }
 @font-face {
   font-family:Poppins-regular;
-  src: url('./app/model/sources/Poppins/Poppins-Regular.ttf');
+  src: url('/src/app/model/sources/Poppins-regular');
 }
 h1,h2,h3,h4,h5{
   font-family: Poppins-bold;
