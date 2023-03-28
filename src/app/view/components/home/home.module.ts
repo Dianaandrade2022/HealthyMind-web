@@ -5,7 +5,7 @@ import { HomeComponent } from './home.component';
 import { SlideComponentModule } from '../slide/slide.component.module';
 import { BodyComponentModule } from '../body/body.component.module';
 import { CommonModule } from '@angular/common';
-import { HomeRoutingModule } from './home-routing.module';
+import { FooterComponentModule } from '../footer/footer.module';
 
 
 @NgModule({
@@ -16,7 +16,8 @@ import { HomeRoutingModule } from './home-routing.module';
     CommonModule,
     MenuComponentModule,
     SlideComponentModule,
-    BodyComponentModule
+    BodyComponentModule,
+    FooterComponentModule
   ],
   providers: [],
   bootstrap: [HomeComponent],

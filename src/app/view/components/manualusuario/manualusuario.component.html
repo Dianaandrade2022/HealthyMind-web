@@ -1,1 +1,21 @@
-<p>manualusuario works!</p>
+<app-menu></app-menu>
+<div class="card" id="intro">
+  <h5 class="card-header bg-dark text-light">Introducción</h5>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">El presente manual lo ayudará a gestionar de manera ágil y sencilla nuestro Sistema HEALTHY MIND. Sígalo paso a paso para lograr una utilización correcta y eficiente de nuestro servicio. </p>
+  </div>
+</div>
+<div class="row">
+  <div class="card m-1" style="width: 20rem;" *ngFor="let i of appbody">
+    <img [src]="i.img" class="card-img-top" alt="..." *ngIf="i.img !=''; else imganother">
+    <ng-template #imganother>
+      <img src="" alt="">
+    </ng-template>
+    <div class="card-body">
+      <h5 class="card-title">{{i.title}}</h5>
+      <p class="card-text">{{i.body}}</p>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

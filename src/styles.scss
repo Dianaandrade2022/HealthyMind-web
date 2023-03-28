@@ -1,22 +1,8 @@
-@font-face {
-  font-family: Poppins;
-  src: url('/src/app/model/sources/Poppins');
-}
-@font-face {
-  font-family: Poppins-light;
-  src: url('/src/app/model/sources/Poppins-light');
-}
-@font-face {
-  font-family:Poppins-bold ;
-  src: url('/src/app/model/sources/Poppins-bold');
-}
-@font-face {
-  font-family:Poppins-regular;
-  src: url('/src/app/model/sources/Poppins-regular');
-}
+
 h1,h2,h3,h4,h5{
-  font-family: Poppins-bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
 }
 p{
-  font-family: Poppins-light;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }

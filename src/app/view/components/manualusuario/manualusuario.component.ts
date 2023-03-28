@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { appbody } from '../../../model/sources/appbody';
 
 @Component({
   selector: 'app-manualusuario',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./manualusuario.component.scss']
 })
 export class ManualusuarioComponent {
-
+  appbody = appbody;
 }

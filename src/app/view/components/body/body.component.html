@@ -1,1 +1,24 @@
-nose
+<div class="list-group">
+  <div class="list-group-item list-group-item-action" aria-current="true" *ngFor="let i of cardbody">
+    <div class="d-flex w-100 justify-content-between" >
+      <h5 class="mb-1 text-center">{{i.title}}</h5>
+      <small>{{i.small}}</small>
+    </div>
+    <p class="mb-1">{{i.body}}</p>
+    <small>Catarsis</small>
+  </div>
+  <div class="accordion" [id]="descarga">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" id="descarga" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Descargar
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          archivo
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
